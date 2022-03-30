@@ -1,0 +1,2509 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.CollabProxy.Editor:Unity.Cloud.Collaborate.UserInterface:WindowCache
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/ExampleAssets.meta
+    - Assets/ExampleAssets/Materials.meta
+    - Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
+    - Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
+    - Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/DryWall_Mat.mat
+    - Assets/ExampleAssets/Materials/DryWall_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Ground_Mat.mat
+    - Assets/ExampleAssets/Materials/Ground_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Hammer_Mat.mat
+    - Assets/ExampleAssets/Materials/Hammer_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/HardHat_Mat.mat
+    - Assets/ExampleAssets/Materials/HardHat_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
+    - Assets/ExampleAssets/Materials/Jigsaw_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+    - Assets/ExampleAssets/Materials/LightBulb_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Liquid_Mat.mat
+    - Assets/ExampleAssets/Materials/Liquid_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
+    - Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+    - Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/OBS_Mat.mat
+    - Assets/ExampleAssets/Materials/OBS_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+    - Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat.meta
+    - Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+    - Assets/ExampleAssets/Materials/PaintBrush_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/PaintLabel_Mat.mat
+    - Assets/ExampleAssets/Materials/PaintLabel_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
+    - Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+    - Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
+    - Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
+    - Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Plastic_Transparent.mat
+    - Assets/ExampleAssets/Materials/Plastic_Transparent.mat.meta
+    - Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+    - Assets/ExampleAssets/Materials/Plastic_White_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat
+    - Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Strap_Mat.mat
+    - Assets/ExampleAssets/Materials/Strap_Mat.mat.meta
+    - Assets/ExampleAssets/Materials/Stud_Mat.mat
+    - Assets/ExampleAssets/Materials/Stud_Mat.mat.meta
+    - Assets/ExampleAssets/Models.meta
+    - Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+    - Assets/ExampleAssets/Models/ConstructionLight_Low.fbx.meta
+    - Assets/ExampleAssets/Models/Stud.fbx
+    - Assets/ExampleAssets/Models/Stud.fbx.meta
+    - Assets/ExampleAssets/Models/Workbench.fbx
+    - Assets/ExampleAssets/Models/Workbench.fbx.meta
+    - Assets/ExampleAssets/Models/Workbench_Low.fbx
+    - Assets/ExampleAssets/Models/Workbench_Low.fbx.meta
+    - Assets/ExampleAssets/Models/Workshop_Set.fbx
+    - Assets/ExampleAssets/Models/Workshop_Set.fbx.meta
+    - Assets/ExampleAssets/Models/brush_low.fbx
+    - Assets/ExampleAssets/Models/brush_low.fbx.meta
+    - Assets/ExampleAssets/Models/hammer_low.fbx
+    - Assets/ExampleAssets/Models/hammer_low.fbx.meta
+    - Assets/ExampleAssets/Models/jigsaw_low.fbx
+    - Assets/ExampleAssets/Models/jigsaw_low.fbx.meta
+    - Assets/ExampleAssets/Models/magneticlevel_low.fbx
+    - Assets/ExampleAssets/Models/magneticlevel_low.fbx.meta
+    - Assets/ExampleAssets/Models/paintbucket_low.fbx
+    - Assets/ExampleAssets/Models/paintbucket_low.fbx.meta
+    - Assets/ExampleAssets/Models/safetygoggles_low.fbx
+    - Assets/ExampleAssets/Models/safetygoggles_low.fbx.meta
+    - Assets/ExampleAssets/Models/safetyhat_low.fbx
+    - Assets/ExampleAssets/Models/safetyhat_low.fbx.meta
+    - Assets/ExampleAssets/Models/small_plane.fbx
+    - Assets/ExampleAssets/Models/small_plane.fbx.meta
+    - Assets/ExampleAssets/Prefabs.meta
+    - Assets/ExampleAssets/Prefabs/Construction Light Low.prefab
+    - Assets/ExampleAssets/Prefabs/Construction Light Low.prefab.meta
+    - Assets/ExampleAssets/Prefabs/Paint Supplies.prefab
+    - Assets/ExampleAssets/Prefabs/Paint Supplies.prefab.meta
+    - Assets/ExampleAssets/Prefabs/Props.prefab
+    - Assets/ExampleAssets/Prefabs/Props.prefab.meta
+    - Assets/ExampleAssets/Prefabs/Workbench.prefab
+    - Assets/ExampleAssets/Prefabs/Workbench.prefab.meta
+    - Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab
+    - Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab.meta
+    - Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab
+    - Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab.meta
+    - Assets/ExampleAssets/Prefabs/Workshop Set.prefab
+    - Assets/ExampleAssets/Prefabs/Workshop Set.prefab.meta
+    - Assets/ExampleAssets/Shaders.meta
+    - Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph
+    - Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph.meta
+    - Assets/ExampleAssets/Textures.meta
+    - Assets/ExampleAssets/Textures/Concrete.meta
+    - Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
+    - Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+    - Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Drywall.meta
+    - Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+    - Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+    - Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+    - Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+    - Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Metal.meta
+    - Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+    - Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+    - Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+    - Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Plastic.meta
+    - Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+    - Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif
+    - Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif
+    - Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Props.meta
+    - Assets/ExampleAssets/Textures/Props/Construction_Light.meta
+    - Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+    - Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Hammer.meta
+    - Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
+    - Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
+    - Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Props/HardHat.meta
+    - Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif
+    - Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif
+    - Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Jigsaw.meta
+    - Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+    - Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+    - Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Paint.meta
+    - Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif
+    - Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif
+    - Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif
+    - Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif
+    - Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif
+    - Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif
+    - Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif
+    - Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif
+    - Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Wood.meta
+    - Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif
+    - Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif
+    - Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif.meta
+    - Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif
+    - Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif.meta
+    - Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
+    - Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif.meta
+    - Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
+    - Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif.meta
+    - Assets/Materials.meta
+    - Assets/Materials/Skybox_Mat.mat
+    - Assets/Materials/Skybox_Mat.mat.meta
+    - Assets/Mirror.meta
+    - Assets/Mirror/Authenticators.meta
+    - Assets/Mirror/Authenticators/BasicAuthenticator.cs
+    - Assets/Mirror/Authenticators/BasicAuthenticator.cs.meta
+    - Assets/Mirror/Authenticators/DeviceAuthenticator.cs
+    - Assets/Mirror/Authenticators/DeviceAuthenticator.cs.meta
+    - Assets/Mirror/Authenticators/Mirror.Authenticators.asmdef
+    - Assets/Mirror/Authenticators/Mirror.Authenticators.asmdef.meta
+    - Assets/Mirror/Authenticators/TimeoutAuthenticator.cs
+    - Assets/Mirror/Authenticators/TimeoutAuthenticator.cs.meta
+    - Assets/Mirror/CompilerSymbols.meta
+    - Assets/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef
+    - Assets/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef.meta
+    - Assets/Mirror/CompilerSymbols/PreprocessorDefine.cs
+    - Assets/Mirror/CompilerSymbols/PreprocessorDefine.cs.meta
+    - Assets/Mirror/Components.meta
+    - Assets/Mirror/Components/AssemblyInfo.cs
+    - Assets/Mirror/Components/AssemblyInfo.cs.meta
+    - Assets/Mirror/Components/Discovery.meta
+    - Assets/Mirror/Components/Discovery/NetworkDiscovery.cs
+    - Assets/Mirror/Components/Discovery/NetworkDiscovery.cs.meta
+    - Assets/Mirror/Components/Discovery/NetworkDiscoveryBase.cs
+    - Assets/Mirror/Components/Discovery/NetworkDiscoveryBase.cs.meta
+    - Assets/Mirror/Components/Discovery/NetworkDiscoveryHUD.cs
+    - Assets/Mirror/Components/Discovery/NetworkDiscoveryHUD.cs.meta
+    - Assets/Mirror/Components/Discovery/ServerRequest.cs
+    - Assets/Mirror/Components/Discovery/ServerRequest.cs.meta
+    - Assets/Mirror/Components/Discovery/ServerResponse.cs
+    - Assets/Mirror/Components/Discovery/ServerResponse.cs.meta
+    - Assets/Mirror/Components/Experimental.meta
+    - Assets/Mirror/Components/Experimental/NetworkLerpRigidbody.cs
+    - Assets/Mirror/Components/Experimental/NetworkLerpRigidbody.cs.meta
+    - Assets/Mirror/Components/Experimental/NetworkRigidbody.cs
+    - Assets/Mirror/Components/Experimental/NetworkRigidbody.cs.meta
+    - Assets/Mirror/Components/Experimental/NetworkRigidbody2D.cs
+    - Assets/Mirror/Components/Experimental/NetworkRigidbody2D.cs.meta
+    - Assets/Mirror/Components/Experimental/NetworkTransform.cs
+    - Assets/Mirror/Components/Experimental/NetworkTransform.cs.meta
+    - Assets/Mirror/Components/Experimental/NetworkTransformBase.cs
+    - Assets/Mirror/Components/Experimental/NetworkTransformBase.cs.meta
+    - Assets/Mirror/Components/Experimental/NetworkTransformChild.cs
+    - Assets/Mirror/Components/Experimental/NetworkTransformChild.cs.meta
+    - Assets/Mirror/Components/GUIConsole.cs
+    - Assets/Mirror/Components/GUIConsole.cs.meta
+    - Assets/Mirror/Components/InterestManagement.meta
+    - Assets/Mirror/Components/InterestManagement/Distance.meta
+    - Assets/Mirror/Components/InterestManagement/Distance/DistanceInterestManagement.cs
+    - Assets/Mirror/Components/InterestManagement/Distance/DistanceInterestManagement.cs.meta
+    - Assets/Mirror/Components/InterestManagement/Distance/DistanceInterestManagementCustomRange.cs
+    - Assets/Mirror/Components/InterestManagement/Distance/DistanceInterestManagementCustomRange.cs.meta
+    - Assets/Mirror/Components/InterestManagement/Match.meta
+    - Assets/Mirror/Components/InterestManagement/Match/MatchInterestManagement.cs
+    - Assets/Mirror/Components/InterestManagement/Match/MatchInterestManagement.cs.meta
+    - Assets/Mirror/Components/InterestManagement/Match/NetworkMatch.cs
+    - Assets/Mirror/Components/InterestManagement/Match/NetworkMatch.cs.meta
+    - Assets/Mirror/Components/InterestManagement/Scene.meta
+    - Assets/Mirror/Components/InterestManagement/Scene/SceneInterestManagement.cs
+    - Assets/Mirror/Components/InterestManagement/Scene/SceneInterestManagement.cs.meta
+    - Assets/Mirror/Components/InterestManagement/SpatialHashing.meta
+    - Assets/Mirror/Components/InterestManagement/SpatialHashing/Grid2D.cs
+    - Assets/Mirror/Components/InterestManagement/SpatialHashing/Grid2D.cs.meta
+    - Assets/Mirror/Components/InterestManagement/SpatialHashing/SpatialHashingInterestManagement.cs
+    - Assets/Mirror/Components/InterestManagement/SpatialHashing/SpatialHashingInterestManagement.cs.meta
+    - Assets/Mirror/Components/InterestManagement/Team.meta
+    - Assets/Mirror/Components/InterestManagement/Team/NetworkTeam.cs
+    - Assets/Mirror/Components/InterestManagement/Team/NetworkTeam.cs.meta
+    - Assets/Mirror/Components/InterestManagement/Team/TeamInterestManagement.cs
+    - Assets/Mirror/Components/InterestManagement/Team/TeamInterestManagement.cs.meta
+    - Assets/Mirror/Components/Mirror.Components.asmdef
+    - Assets/Mirror/Components/Mirror.Components.asmdef.meta
+    - Assets/Mirror/Components/NetworkAnimator.cs
+    - Assets/Mirror/Components/NetworkAnimator.cs.meta
+    - Assets/Mirror/Components/NetworkLobbyManager.cs
+    - Assets/Mirror/Components/NetworkLobbyManager.cs.meta
+    - Assets/Mirror/Components/NetworkLobbyPlayer.cs
+    - Assets/Mirror/Components/NetworkLobbyPlayer.cs.meta
+    - Assets/Mirror/Components/NetworkPingDisplay.cs
+    - Assets/Mirror/Components/NetworkPingDisplay.cs.meta
+    - Assets/Mirror/Components/NetworkRoomManager.cs
+    - Assets/Mirror/Components/NetworkRoomManager.cs.meta
+    - Assets/Mirror/Components/NetworkRoomPlayer.cs
+    - Assets/Mirror/Components/NetworkRoomPlayer.cs.meta
+    - Assets/Mirror/Components/NetworkTransform2k.meta
+    - Assets/Mirror/Components/NetworkTransform2k/NetworkTransform.cs
+    - Assets/Mirror/Components/NetworkTransform2k/NetworkTransform.cs.meta
+    - Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs
+    - Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs.meta
+    - Assets/Mirror/Components/NetworkTransform2k/NetworkTransformChild.cs
+    - Assets/Mirror/Components/NetworkTransform2k/NetworkTransformChild.cs.meta
+    - Assets/Mirror/Components/NetworkTransform2k/NetworkTransformSnapshot.cs
+    - Assets/Mirror/Components/NetworkTransform2k/NetworkTransformSnapshot.cs.meta
+    - Assets/Mirror/Editor.meta
+    - Assets/Mirror/Editor/AndroidManifestHelper.cs
+    - Assets/Mirror/Editor/AndroidManifestHelper.cs.meta
+    - Assets/Mirror/Editor/EditorHelper.cs
+    - Assets/Mirror/Editor/EditorHelper.cs.meta
+    - Assets/Mirror/Editor/Empty.meta
+    - Assets/Mirror/Editor/Empty/EnterPlayModeSettingsCheck.cs
+    - Assets/Mirror/Editor/Empty/EnterPlayModeSettingsCheck.cs.meta
+    - Assets/Mirror/Editor/Empty/LogLevelWindow.cs
+    - Assets/Mirror/Editor/Empty/LogLevelWindow.cs.meta
+    - Assets/Mirror/Editor/Empty/Logging.meta
+    - Assets/Mirror/Editor/Empty/Logging/LogLevelWindow.cs
+    - Assets/Mirror/Editor/Empty/Logging/LogLevelWindow.cs.meta
+    - Assets/Mirror/Editor/Empty/Logging/LogLevelsGUI.cs
+    - Assets/Mirror/Editor/Empty/Logging/LogLevelsGUI.cs.meta
+    - Assets/Mirror/Editor/Empty/Logging/LogSettingsEditor.cs
+    - Assets/Mirror/Editor/Empty/Logging/LogSettingsEditor.cs.meta
+    - Assets/Mirror/Editor/Empty/Logging/NetworkLogSettingsEditor.cs
+    - Assets/Mirror/Editor/Empty/Logging/NetworkLogSettingsEditor.cs.meta
+    - Assets/Mirror/Editor/Empty/ScriptableObjectUtility.cs
+    - Assets/Mirror/Editor/Empty/ScriptableObjectUtility.cs.meta
+    - Assets/Mirror/Editor/Icon.meta
+    - Assets/Mirror/Editor/Icon/MirrorIcon.png
+    - Assets/Mirror/Editor/Icon/MirrorIcon.png.meta
+    - Assets/Mirror/Editor/InspectorHelper.cs
+    - Assets/Mirror/Editor/InspectorHelper.cs.meta
+    - Assets/Mirror/Editor/Mirror.Editor.asmdef
+    - Assets/Mirror/Editor/Mirror.Editor.asmdef.meta
+    - Assets/Mirror/Editor/NetworkBehaviourInspector.cs
+    - Assets/Mirror/Editor/NetworkBehaviourInspector.cs.meta
+    - Assets/Mirror/Editor/NetworkInformationPreview.cs
+    - Assets/Mirror/Editor/NetworkInformationPreview.cs.meta
+    - Assets/Mirror/Editor/NetworkManagerEditor.cs
+    - Assets/Mirror/Editor/NetworkManagerEditor.cs.meta
+    - Assets/Mirror/Editor/NetworkScenePostProcess.cs
+    - Assets/Mirror/Editor/NetworkScenePostProcess.cs.meta
+    - Assets/Mirror/Editor/SceneDrawer.cs
+    - Assets/Mirror/Editor/SceneDrawer.cs.meta
+    - Assets/Mirror/Editor/SyncObjectCollectionsDrawer.cs
+    - Assets/Mirror/Editor/SyncObjectCollectionsDrawer.cs.meta
+    - Assets/Mirror/Editor/SyncVarAttributeDrawer.cs
+    - Assets/Mirror/Editor/SyncVarAttributeDrawer.cs.meta
+    - Assets/Mirror/Editor/SyncVarDrawer.cs
+    - Assets/Mirror/Editor/SyncVarDrawer.cs.meta
+    - Assets/Mirror/Editor/Weaver.meta
+    - Assets/Mirror/Editor/Weaver/AssemblyInfo.cs
+    - Assets/Mirror/Editor/Weaver/AssemblyInfo.cs.meta
+    - Assets/Mirror/Editor/Weaver/Empty.meta
+    - Assets/Mirror/Editor/Weaver/Empty/GenericArgumentResolver.cs
+    - Assets/Mirror/Editor/Weaver/Empty/GenericArgumentResolver.cs.meta
+    - Assets/Mirror/Editor/Weaver/Empty/MessageClassProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Empty/MessageClassProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Empty/Program.cs
+    - Assets/Mirror/Editor/Weaver/Empty/Program.cs.meta
+    - Assets/Mirror/Editor/Weaver/Empty/SyncDictionaryProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Empty/SyncDictionaryProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Empty/SyncEventProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Empty/SyncEventProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Empty/SyncListProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Empty/SyncListProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPoint.meta
+    - Assets/Mirror/Editor/Weaver/EntryPoint/CompilationFinishedHook.cs
+    - Assets/Mirror/Editor/Weaver/EntryPoint/CompilationFinishedHook.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPoint/CompilationFinishedLogger.cs
+    - Assets/Mirror/Editor/Weaver/EntryPoint/CompilationFinishedLogger.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPoint/EnterPlayModeHook.cs
+    - Assets/Mirror/Editor/Weaver/EntryPoint/EnterPlayModeHook.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor.meta
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/CompiledAssemblyFromFile.cs
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/CompiledAssemblyFromFile.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorAssemblyResolver.cs
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorAssemblyResolver.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorFromFile.cs
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorFromFile.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorHook.cs
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorHook.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorLogger.cs
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorLogger.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorReflectionImporter.cs
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorReflectionImporter.cs.meta
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorReflectionImporterProvider.cs
+    - Assets/Mirror/Editor/Weaver/EntryPointILPostProcessor/ILPostProcessorReflectionImporterProvider.cs.meta
+    - Assets/Mirror/Editor/Weaver/Extensions.cs
+    - Assets/Mirror/Editor/Weaver/Extensions.cs.meta
+    - Assets/Mirror/Editor/Weaver/Helpers.cs
+    - Assets/Mirror/Editor/Weaver/Helpers.cs.meta
+    - Assets/Mirror/Editor/Weaver/Logger.cs
+    - Assets/Mirror/Editor/Weaver/Logger.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors.meta
+    - Assets/Mirror/Editor/Weaver/Processors/CommandProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/CommandProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/MethodProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/MethodProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/MonoBehaviourProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/MonoBehaviourProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/NetworkBehaviourProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/NetworkBehaviourProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/ReaderWriterProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/ReaderWriterProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/RpcProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/RpcProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/ServerClientAttributeProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/ServerClientAttributeProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/SyncObjectInitializer.cs
+    - Assets/Mirror/Editor/Weaver/Processors/SyncObjectInitializer.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/SyncObjectProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/SyncObjectProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/SyncVarAttributeAccessReplacer.cs
+    - Assets/Mirror/Editor/Weaver/Processors/SyncVarAttributeAccessReplacer.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/SyncVarAttributeProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/SyncVarAttributeProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Processors/TargetRpcProcessor.cs
+    - Assets/Mirror/Editor/Weaver/Processors/TargetRpcProcessor.cs.meta
+    - Assets/Mirror/Editor/Weaver/Readers.cs
+    - Assets/Mirror/Editor/Weaver/Readers.cs.meta
+    - Assets/Mirror/Editor/Weaver/Resolvers.cs
+    - Assets/Mirror/Editor/Weaver/Resolvers.cs.meta
+    - Assets/Mirror/Editor/Weaver/SyncVarAccessLists.cs
+    - Assets/Mirror/Editor/Weaver/SyncVarAccessLists.cs.meta
+    - Assets/Mirror/Editor/Weaver/TypeReferenceComparer.cs
+    - Assets/Mirror/Editor/Weaver/TypeReferenceComparer.cs.meta
+    - Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef
+    - Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef.meta
+    - Assets/Mirror/Editor/Weaver/Weaver.cs
+    - Assets/Mirror/Editor/Weaver/Weaver.cs.meta
+    - Assets/Mirror/Editor/Weaver/WeaverExceptions.cs
+    - Assets/Mirror/Editor/Weaver/WeaverExceptions.cs.meta
+    - Assets/Mirror/Editor/Weaver/WeaverTypes.cs
+    - Assets/Mirror/Editor/Weaver/WeaverTypes.cs.meta
+    - Assets/Mirror/Editor/Weaver/Writers.cs
+    - Assets/Mirror/Editor/Weaver/Writers.cs.meta
+    - Assets/Mirror/Examples.meta
+    - Assets/Mirror/Examples/AdditiveLevels.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Materials.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/CubeSphere.mat
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/CubeSphere.mat.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/Ground.mat
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/Ground.mat.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/Player.mat
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/Player.mat.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/Portal.mat
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/Portal.mat.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/StartPoint.mat
+    - Assets/Mirror/Examples/AdditiveLevels/Materials/StartPoint.mat.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Cube.prefab
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Cube.prefab.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Plane.prefab
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Plane.prefab.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Player.prefab
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Player.prefab.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Portal.prefab
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Portal.prefab.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Sphere.prefab
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/Sphere.prefab.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/StartPoint.prefab
+    - Assets/Mirror/Examples/AdditiveLevels/Prefabs/StartPoint.prefab.meta
+    - Assets/Mirror/Examples/AdditiveLevels/ReadMe.txt
+    - Assets/Mirror/Examples/AdditiveLevels/ReadMe.txt.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/Offline.unity
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/Offline.unity.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/Online.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/Online.unity
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/Online.unity.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/Online/LightingData.asset
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/Online/LightingData.asset.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/Online/ReflectionProbe-0.exr
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/Online/ReflectionProbe-0.exr.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/SubLevel1.unity
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/SubLevel1.unity.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/SubLevel2.unity
+    - Assets/Mirror/Examples/AdditiveLevels/Scenes/SubLevel2.unity.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/AdditiveLevelsNetworkManager.cs
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/AdditiveLevelsNetworkManager.cs.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/FadeInOut.cs
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/FadeInOut.cs.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/LookAtMainCamera.cs
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/LookAtMainCamera.cs.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/PhysicsSimulator.cs
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/PhysicsSimulator.cs.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/PlayerCamera.cs
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/PlayerCamera.cs.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/PlayerController.cs
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/PlayerController.cs.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/Portal.cs
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/Portal.cs.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/RandomColor.cs
+    - Assets/Mirror/Examples/AdditiveLevels/Scripts/RandomColor.cs.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Textures.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Back_Tex.jpeg
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Back_Tex.jpeg.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Down_Tex.jpeg
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Down_Tex.jpeg.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Front_Tex.jpeg
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Front_Tex.jpeg.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Left_Tex.jpeg
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Left_Tex.jpeg.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Right_Tex.jpeg
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Right_Tex.jpeg.meta
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Up_Tex.jpeg
+    - Assets/Mirror/Examples/AdditiveLevels/Textures/Up_Tex.jpeg.meta
+    - Assets/Mirror/Examples/AdditiveScenes.meta
+    - Assets/Mirror/Examples/AdditiveScenes/AnimationControllers.meta
+    - Assets/Mirror/Examples/AdditiveScenes/AnimationControllers/Tank.controller
+    - Assets/Mirror/Examples/AdditiveScenes/AnimationControllers/Tank.controller.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Materials.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Cube.mat
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Cube.mat.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Player.mat
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Player.mat.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Quad.mat
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Quad.mat.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Shelter.mat
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Shelter.mat.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Sphere.mat
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Sphere.mat.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Zone.mat
+    - Assets/Mirror/Examples/AdditiveScenes/Materials/Zone.mat.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Capsule.prefab
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Capsule.prefab.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Cube.prefab
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Cube.prefab.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Cylinder.prefab
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Cylinder.prefab.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Player.prefab
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Player.prefab.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Sphere.prefab
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Sphere.prefab.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Tank.prefab
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Tank.prefab.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Zone.prefab
+    - Assets/Mirror/Examples/AdditiveScenes/Prefabs/Zone.prefab.meta
+    - Assets/Mirror/Examples/AdditiveScenes/README.md
+    - Assets/Mirror/Examples/AdditiveScenes/README.md.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scenes.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scenes/MainScene.unity
+    - Assets/Mirror/Examples/AdditiveScenes/Scenes/MainScene.unity.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scenes/SubScene.unity
+    - Assets/Mirror/Examples/AdditiveScenes/Scenes/SubScene.unity.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/AdditiveNetworkManager.cs
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/AdditiveNetworkManager.cs.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/PlayerCamera.cs
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/PlayerCamera.cs.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/PlayerController.cs
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/PlayerController.cs.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/RandomColor.cs
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/RandomColor.cs.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/ShootingTankBehaviour.cs
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/ShootingTankBehaviour.cs.meta
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/ZoneHandler.cs
+    - Assets/Mirror/Examples/AdditiveScenes/Scripts/ZoneHandler.cs.meta
+    - Assets/Mirror/Examples/Basic.meta
+    - Assets/Mirror/Examples/Basic/Prefabs.meta
+    - Assets/Mirror/Examples/Basic/Prefabs/Player.prefab
+    - Assets/Mirror/Examples/Basic/Prefabs/Player.prefab.meta
+    - Assets/Mirror/Examples/Basic/Prefabs/PlayerUI.prefab
+    - Assets/Mirror/Examples/Basic/Prefabs/PlayerUI.prefab.meta
+    - Assets/Mirror/Examples/Basic/README.md
+    - Assets/Mirror/Examples/Basic/README.md.meta
+    - Assets/Mirror/Examples/Basic/Scenes.meta
+    - Assets/Mirror/Examples/Basic/Scenes/Example.unity
+    - Assets/Mirror/Examples/Basic/Scenes/Example.unity.meta
+    - Assets/Mirror/Examples/Basic/Scripts.meta
+    - Assets/Mirror/Examples/Basic/Scripts/BasicNetManager.cs
+    - Assets/Mirror/Examples/Basic/Scripts/BasicNetManager.cs.meta
+    - Assets/Mirror/Examples/Basic/Scripts/CanvasUI.cs
+    - Assets/Mirror/Examples/Basic/Scripts/CanvasUI.cs.meta
+    - Assets/Mirror/Examples/Basic/Scripts/Player.cs
+    - Assets/Mirror/Examples/Basic/Scripts/Player.cs.meta
+    - Assets/Mirror/Examples/Basic/Scripts/PlayerUI.cs
+    - Assets/Mirror/Examples/Basic/Scripts/PlayerUI.cs.meta
+    - Assets/Mirror/Examples/Benchmark.meta
+    - Assets/Mirror/Examples/Benchmark/Materials.meta
+    - Assets/Mirror/Examples/Benchmark/Materials/Red.mat
+    - Assets/Mirror/Examples/Benchmark/Materials/Red.mat.meta
+    - Assets/Mirror/Examples/Benchmark/Materials/White.mat
+    - Assets/Mirror/Examples/Benchmark/Materials/White.mat.meta
+    - Assets/Mirror/Examples/Benchmark/Prefabs.meta
+    - Assets/Mirror/Examples/Benchmark/Prefabs/Monster.prefab
+    - Assets/Mirror/Examples/Benchmark/Prefabs/Monster.prefab.meta
+    - Assets/Mirror/Examples/Benchmark/Prefabs/Player.prefab
+    - Assets/Mirror/Examples/Benchmark/Prefabs/Player.prefab.meta
+    - Assets/Mirror/Examples/Benchmark/Scenes.meta
+    - Assets/Mirror/Examples/Benchmark/Scenes/Scene.unity
+    - Assets/Mirror/Examples/Benchmark/Scenes/Scene.unity.meta
+    - Assets/Mirror/Examples/Benchmark/Scripts.meta
+    - Assets/Mirror/Examples/Benchmark/Scripts/BenchmarkNetworkManager.cs
+    - Assets/Mirror/Examples/Benchmark/Scripts/BenchmarkNetworkManager.cs.meta
+    - Assets/Mirror/Examples/Benchmark/Scripts/MonsterMovement.cs
+    - Assets/Mirror/Examples/Benchmark/Scripts/MonsterMovement.cs.meta
+    - Assets/Mirror/Examples/Benchmark/Scripts/PlayerMovement.cs
+    - Assets/Mirror/Examples/Benchmark/Scripts/PlayerMovement.cs.meta
+    - Assets/Mirror/Examples/Chat.meta
+    - Assets/Mirror/Examples/Chat/Prefabs.meta
+    - Assets/Mirror/Examples/Chat/Prefabs/Player.prefab
+    - Assets/Mirror/Examples/Chat/Prefabs/Player.prefab.meta
+    - Assets/Mirror/Examples/Chat/Scenes.meta
+    - Assets/Mirror/Examples/Chat/Scenes/Main.unity
+    - Assets/Mirror/Examples/Chat/Scenes/Main.unity.meta
+    - Assets/Mirror/Examples/Chat/Scripts.meta
+    - Assets/Mirror/Examples/Chat/Scripts/ChatAuthenticator.cs
+    - Assets/Mirror/Examples/Chat/Scripts/ChatAuthenticator.cs.meta
+    - Assets/Mirror/Examples/Chat/Scripts/ChatNetworkManager.cs
+    - Assets/Mirror/Examples/Chat/Scripts/ChatNetworkManager.cs.meta
+    - Assets/Mirror/Examples/Chat/Scripts/ChatUI.cs
+    - Assets/Mirror/Examples/Chat/Scripts/ChatUI.cs.meta
+    - Assets/Mirror/Examples/Chat/Scripts/LoginUI.cs
+    - Assets/Mirror/Examples/Chat/Scripts/LoginUI.cs.meta
+    - Assets/Mirror/Examples/Chat/Scripts/Player.cs
+    - Assets/Mirror/Examples/Chat/Scripts/Player.cs.meta
+    - Assets/Mirror/Examples/Discovery.meta
+    - Assets/Mirror/Examples/Discovery/Prefabs.meta
+    - Assets/Mirror/Examples/Discovery/Prefabs/Player.prefab
+    - Assets/Mirror/Examples/Discovery/Prefabs/Player.prefab.meta
+    - Assets/Mirror/Examples/Discovery/Scenes.meta
+    - Assets/Mirror/Examples/Discovery/Scenes/Scene.unity
+    - Assets/Mirror/Examples/Discovery/Scenes/Scene.unity.meta
+    - Assets/Mirror/Examples/Mirror.Examples.asmdef
+    - Assets/Mirror/Examples/Mirror.Examples.asmdef.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Physics.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Physics/Icosphere.physicMaterial
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Physics/Icosphere.physicMaterial.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Physics/Player.physicMaterial
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Physics/Player.physicMaterial.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Physics/RoomBounce.physicMaterial
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Physics/RoomBounce.physicMaterial.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Player.mat
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Player.mat.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Models.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Icosphere.obj
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Icosphere.obj.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Prefabs.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Prefabs/Icosphere.prefab
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Prefabs/Icosphere.prefab.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Prefabs/Player.prefab
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Prefabs/Player.prefab.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Prefabs/Prize.prefab
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Prefabs/Prize.prefab.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/README.md
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/README.md.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scenes.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scenes/Game.unity
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scenes/Game.unity.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scenes/Main.unity
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scenes/Main.unity.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/MultiSceneNetManager.cs
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/MultiSceneNetManager.cs.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PhysicsCollision.cs
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PhysicsCollision.cs.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PhysicsSimulator.cs
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PhysicsSimulator.cs.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PlayerCamera.cs
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PlayerCamera.cs.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PlayerController.cs
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PlayerController.cs.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PlayerScore.cs
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PlayerScore.cs.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/RandomColor.cs
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/RandomColor.cs.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/Reward.cs
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/Reward.cs.meta
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/Spawner.cs
+    - Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/Spawner.cs.meta
+    - Assets/Mirror/Examples/MultipleMatches.meta
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs.meta
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/CellGUI.prefab
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/CellGUI.prefab.meta
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/MatchController.prefab
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/MatchController.prefab.meta
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/MatchGUI.prefab
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/MatchGUI.prefab.meta
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/MatchPlayer.prefab
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/MatchPlayer.prefab.meta
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/PlayerGUI.prefab
+    - Assets/Mirror/Examples/MultipleMatches/Prefabs/PlayerGUI.prefab.meta
+    - Assets/Mirror/Examples/MultipleMatches/README.md
+    - Assets/Mirror/Examples/MultipleMatches/README.md.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scenes.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scenes/Main.unity
+    - Assets/Mirror/Examples/MultipleMatches/Scenes/Main.unity.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scripts.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/CanvasController.cs
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/CanvasController.cs.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/CellGUI.cs
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/CellGUI.cs.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/MatchController.cs
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/MatchController.cs.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/MatchGUI.cs
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/MatchGUI.cs.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/MatchMessages.cs
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/MatchMessages.cs.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/MatchNetworkManager.cs
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/MatchNetworkManager.cs.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/PlayerGUI.cs
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/PlayerGUI.cs.meta
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/RoomGUI.cs
+    - Assets/Mirror/Examples/MultipleMatches/Scripts/RoomGUI.cs.meta
+    - Assets/Mirror/Examples/Pong.meta
+    - Assets/Mirror/Examples/Pong/PhysicsMaterials.meta
+    - Assets/Mirror/Examples/Pong/PhysicsMaterials/BallMaterial.physicsMaterial2D
+    - Assets/Mirror/Examples/Pong/PhysicsMaterials/BallMaterial.physicsMaterial2D.meta
+    - Assets/Mirror/Examples/Pong/Prefabs.meta
+    - Assets/Mirror/Examples/Pong/Prefabs/Ball.prefab
+    - Assets/Mirror/Examples/Pong/Prefabs/Ball.prefab.meta
+    - Assets/Mirror/Examples/Pong/Prefabs/Racket.prefab
+    - Assets/Mirror/Examples/Pong/Prefabs/Racket.prefab.meta
+    - Assets/Mirror/Examples/Pong/Scenes.meta
+    - Assets/Mirror/Examples/Pong/Scenes/Scene.unity
+    - Assets/Mirror/Examples/Pong/Scenes/Scene.unity.meta
+    - Assets/Mirror/Examples/Pong/Scripts.meta
+    - Assets/Mirror/Examples/Pong/Scripts/Ball.cs
+    - Assets/Mirror/Examples/Pong/Scripts/Ball.cs.meta
+    - Assets/Mirror/Examples/Pong/Scripts/NetworkManagerPong.cs
+    - Assets/Mirror/Examples/Pong/Scripts/NetworkManagerPong.cs.meta
+    - Assets/Mirror/Examples/Pong/Scripts/Player.cs
+    - Assets/Mirror/Examples/Pong/Scripts/Player.cs.meta
+    - Assets/Mirror/Examples/Pong/Sprites.meta
+    - Assets/Mirror/Examples/Pong/Sprites/Ball.png
+    - Assets/Mirror/Examples/Pong/Sprites/Ball.png.meta
+    - Assets/Mirror/Examples/Pong/Sprites/DottedLine.png
+    - Assets/Mirror/Examples/Pong/Sprites/DottedLine.png.meta
+    - Assets/Mirror/Examples/Pong/Sprites/Racket.png
+    - Assets/Mirror/Examples/Pong/Sprites/Racket.png.meta
+    - Assets/Mirror/Examples/Pong/Sprites/WallHorizontal.png
+    - Assets/Mirror/Examples/Pong/Sprites/WallHorizontal.png.meta
+    - Assets/Mirror/Examples/Pong/Sprites/WallVertical.png
+    - Assets/Mirror/Examples/Pong/Sprites/WallVertical.png.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Materials.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat
+    - Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Materials/Floor.mat
+    - Assets/Mirror/Examples/RigidbodyPhysics/Materials/Floor.mat.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat
+    - Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat
+    - Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Ball.physicMaterial
+    - Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Ball.physicMaterial.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Floor.physicMaterial
+    - Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Floor.physicMaterial.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Prefabs.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Prefabs/Empty Player.prefab
+    - Assets/Mirror/Examples/RigidbodyPhysics/Prefabs/Empty Player.prefab.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Scenes.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Scenes/BounceScene.unity
+    - Assets/Mirror/Examples/RigidbodyPhysics/Scenes/BounceScene.unity.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Scripts.meta
+    - Assets/Mirror/Examples/RigidbodyPhysics/Scripts/AddForce.cs
+    - Assets/Mirror/Examples/RigidbodyPhysics/Scripts/AddForce.cs.meta
+    - Assets/Mirror/Examples/Room.meta
+    - Assets/Mirror/Examples/Room/Materials.meta
+    - Assets/Mirror/Examples/Room/Materials/PlayArea.mat
+    - Assets/Mirror/Examples/Room/Materials/PlayArea.mat.meta
+    - Assets/Mirror/Examples/Room/Materials/Player.mat
+    - Assets/Mirror/Examples/Room/Materials/Player.mat.meta
+    - Assets/Mirror/Examples/Room/Materials/Prize.mat
+    - Assets/Mirror/Examples/Room/Materials/Prize.mat.meta
+    - Assets/Mirror/Examples/Room/Materials/Textures.meta
+    - Assets/Mirror/Examples/Room/Materials/Textures/Wall01.tga
+    - Assets/Mirror/Examples/Room/Materials/Textures/Wall01.tga.meta
+    - Assets/Mirror/Examples/Room/Materials/Textures/Wall01_n.tga
+    - Assets/Mirror/Examples/Room/Materials/Textures/Wall01_n.tga.meta
+    - Assets/Mirror/Examples/Room/Prefabs.meta
+    - Assets/Mirror/Examples/Room/Prefabs/GamePlayer.prefab
+    - Assets/Mirror/Examples/Room/Prefabs/GamePlayer.prefab.meta
+    - Assets/Mirror/Examples/Room/Prefabs/Prize.prefab
+    - Assets/Mirror/Examples/Room/Prefabs/Prize.prefab.meta
+    - Assets/Mirror/Examples/Room/Prefabs/RoomPlayer.prefab
+    - Assets/Mirror/Examples/Room/Prefabs/RoomPlayer.prefab.meta
+    - Assets/Mirror/Examples/Room/README.md
+    - Assets/Mirror/Examples/Room/README.md.meta
+    - Assets/Mirror/Examples/Room/Scenes.meta
+    - Assets/Mirror/Examples/Room/Scenes/OfflineScene.unity
+    - Assets/Mirror/Examples/Room/Scenes/OfflineScene.unity.meta
+    - Assets/Mirror/Examples/Room/Scenes/OnlineScene.unity
+    - Assets/Mirror/Examples/Room/Scenes/OnlineScene.unity.meta
+    - Assets/Mirror/Examples/Room/Scenes/RoomScene.unity
+    - Assets/Mirror/Examples/Room/Scenes/RoomScene.unity.meta
+    - Assets/Mirror/Examples/Room/Scripts.meta
+    - Assets/Mirror/Examples/Room/Scripts/NetworkRoomManagerExt.cs
+    - Assets/Mirror/Examples/Room/Scripts/NetworkRoomManagerExt.cs.meta
+    - Assets/Mirror/Examples/Room/Scripts/NetworkRoomPlayerExt.cs
+    - Assets/Mirror/Examples/Room/Scripts/NetworkRoomPlayerExt.cs.meta
+    - Assets/Mirror/Examples/Room/Scripts/PlayerCamera.cs
+    - Assets/Mirror/Examples/Room/Scripts/PlayerCamera.cs.meta
+    - Assets/Mirror/Examples/Room/Scripts/PlayerController.cs
+    - Assets/Mirror/Examples/Room/Scripts/PlayerController.cs.meta
+    - Assets/Mirror/Examples/Room/Scripts/PlayerScore.cs
+    - Assets/Mirror/Examples/Room/Scripts/PlayerScore.cs.meta
+    - Assets/Mirror/Examples/Room/Scripts/RandomColor.cs
+    - Assets/Mirror/Examples/Room/Scripts/RandomColor.cs.meta
+    - Assets/Mirror/Examples/Room/Scripts/Reward.cs
+    - Assets/Mirror/Examples/Room/Scripts/Reward.cs.meta
+    - Assets/Mirror/Examples/Room/Scripts/Spawner.cs
+    - Assets/Mirror/Examples/Room/Scripts/Spawner.cs.meta
+    - Assets/Mirror/Examples/Tanks.meta
+    - Assets/Mirror/Examples/Tanks/Models.meta
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank.meta
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/BaseColor.png
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/BaseColor.png.meta
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Controller.controller
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Controller.controller.meta
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Emissive.png
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Emissive.png.meta
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Metallic.png
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Metallic.png.meta
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Normal.png
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Normal.png.meta
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Recon_Tank -
+      License.txt
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Recon_Tank -
+      License.txt.meta
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat.meta
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/reconTank.fbx
+    - Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/reconTank.fbx.meta
+    - Assets/Mirror/Examples/Tanks/Prefabs.meta
+    - Assets/Mirror/Examples/Tanks/Prefabs/Projectile.prefab
+    - Assets/Mirror/Examples/Tanks/Prefabs/Projectile.prefab.meta
+    - Assets/Mirror/Examples/Tanks/Prefabs/Tank.prefab
+    - Assets/Mirror/Examples/Tanks/Prefabs/Tank.prefab.meta
+    - Assets/Mirror/Examples/Tanks/Scenes.meta
+    - Assets/Mirror/Examples/Tanks/Scenes/Scene.meta
+    - Assets/Mirror/Examples/Tanks/Scenes/Scene.unity
+    - Assets/Mirror/Examples/Tanks/Scenes/Scene.unity.meta
+    - Assets/Mirror/Examples/Tanks/Scenes/Scene/NavMesh.asset
+    - Assets/Mirror/Examples/Tanks/Scenes/Scene/NavMesh.asset.meta
+    - Assets/Mirror/Examples/Tanks/Scripts.meta
+    - Assets/Mirror/Examples/Tanks/Scripts/FaceCamera.cs
+    - Assets/Mirror/Examples/Tanks/Scripts/FaceCamera.cs.meta
+    - Assets/Mirror/Examples/Tanks/Scripts/Projectile.cs
+    - Assets/Mirror/Examples/Tanks/Scripts/Projectile.cs.meta
+    - Assets/Mirror/Examples/Tanks/Scripts/Tank.cs
+    - Assets/Mirror/Examples/Tanks/Scripts/Tank.cs.meta
+    - Assets/Mirror/Examples/Tanks/Textures.meta
+    - Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture.meta
+    - Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt
+      Hand Painted Texture - License.txt
+    - Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt
+      Hand Painted Texture - License.txt.meta
+    - Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat
+    - Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat.meta
+    - Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/dirt.png
+    - Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/dirt.png.meta
+    - Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat
+    - Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat.meta
+    - Assets/Mirror/Notice.txt
+    - Assets/Mirror/Notice.txt.meta
+    - Assets/Mirror/Plugins.meta
+    - Assets/Mirror/Plugins/Mono.Cecil.meta
+    - Assets/Mirror/Plugins/Mono.Cecil/License.txt
+    - Assets/Mirror/Plugins/Mono.Cecil/License.txt.meta
+    - Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll
+    - Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll.meta
+    - Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll
+    - Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll.meta
+    - Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll
+    - Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll.meta
+    - Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll
+    - Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll.meta
+    - Assets/Mirror/Readme.txt
+    - Assets/Mirror/Readme.txt.meta
+    - Assets/Mirror/Runtime.meta
+    - Assets/Mirror/Runtime/AssemblyInfo.cs
+    - Assets/Mirror/Runtime/AssemblyInfo.cs.meta
+    - Assets/Mirror/Runtime/Attributes.cs
+    - Assets/Mirror/Runtime/Attributes.cs.meta
+    - Assets/Mirror/Runtime/Batching.meta
+    - Assets/Mirror/Runtime/Batching/Batcher.cs
+    - Assets/Mirror/Runtime/Batching/Batcher.cs.meta
+    - Assets/Mirror/Runtime/Batching/Unbatcher.cs
+    - Assets/Mirror/Runtime/Batching/Unbatcher.cs.meta
+    - Assets/Mirror/Runtime/Compression.cs
+    - Assets/Mirror/Runtime/Compression.cs.meta
+    - Assets/Mirror/Runtime/Empty.meta
+    - Assets/Mirror/Runtime/Empty/ClientScene.cs
+    - Assets/Mirror/Runtime/Empty/ClientScene.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ApiConnector.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ApiConnector.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ApiUpdater.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ApiUpdater.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/Ball.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/Ball.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/BallManager.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/BallManager.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/BaseApi.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/BaseApi.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/Events.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/Events.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/Extensions.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/Extensions.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ICoroutineRunner.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ICoroutineRunner.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/IRequestCreator.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/IRequestCreator.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/IUnityEqualCheck.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/IUnityEqualCheck.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/InstantiateNetworkManager.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/InstantiateNetworkManager.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/JsonStructs.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/JsonStructs.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServer.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServer.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServerBaseApi.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServerBaseApi.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServerClientApi.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServerClientApi.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServerJson.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServerJson.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServerServerApi.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ListServerServerApi.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/Logger.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/Logger.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/NetworkManagerListServer.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/NetworkManagerListServer.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/NetworkManagerListServerPong.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/NetworkManagerListServerPong.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/Player.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/Player.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/QuickListServerDebug.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/QuickListServerDebug.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/QuitButtonHUD.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/QuitButtonHUD.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/RequestCreator.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/RequestCreator.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ServerListManager.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ServerListManager.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ServerListUI.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ServerListUI.cs.meta
+    - Assets/Mirror/Runtime/Empty/Cloud/ServerListUIItem.cs
+    - Assets/Mirror/Runtime/Empty/Cloud/ServerListUIItem.cs.meta
+    - Assets/Mirror/Runtime/Empty/DotNetCompatibility.cs
+    - Assets/Mirror/Runtime/Empty/DotNetCompatibility.cs.meta
+    - Assets/Mirror/Runtime/Empty/FallbackTransport.cs
+    - Assets/Mirror/Runtime/Empty/FallbackTransport.cs.meta
+    - Assets/Mirror/Runtime/Empty/LogFactory.cs
+    - Assets/Mirror/Runtime/Empty/LogFactory.cs.meta
+    - Assets/Mirror/Runtime/Empty/LogFilter.cs
+    - Assets/Mirror/Runtime/Empty/LogFilter.cs.meta
+    - Assets/Mirror/Runtime/Empty/Logging.meta
+    - Assets/Mirror/Runtime/Empty/Logging/ConsoleColorLogHandler.cs
+    - Assets/Mirror/Runtime/Empty/Logging/ConsoleColorLogHandler.cs.meta
+    - Assets/Mirror/Runtime/Empty/Logging/EditorLogSettingsLoader.cs
+    - Assets/Mirror/Runtime/Empty/Logging/EditorLogSettingsLoader.cs.meta
+    - Assets/Mirror/Runtime/Empty/Logging/LogFactory.cs
+    - Assets/Mirror/Runtime/Empty/Logging/LogFactory.cs.meta
+    - Assets/Mirror/Runtime/Empty/Logging/LogSettings.cs
+    - Assets/Mirror/Runtime/Empty/Logging/LogSettings.cs.meta
+    - Assets/Mirror/Runtime/Empty/Logging/NetworkHeadlessLogger.cs
+    - Assets/Mirror/Runtime/Empty/Logging/NetworkHeadlessLogger.cs.meta
+    - Assets/Mirror/Runtime/Empty/Logging/NetworkLogSettings.cs
+    - Assets/Mirror/Runtime/Empty/Logging/NetworkLogSettings.cs.meta
+    - Assets/Mirror/Runtime/Empty/NetworkMatchChecker.cs
+    - Assets/Mirror/Runtime/Empty/NetworkMatchChecker.cs.meta
+    - Assets/Mirror/Runtime/Empty/NetworkOwnerChecker.cs
+    - Assets/Mirror/Runtime/Empty/NetworkOwnerChecker.cs.meta
+    - Assets/Mirror/Runtime/Empty/NetworkProximityChecker.cs
+    - Assets/Mirror/Runtime/Empty/NetworkProximityChecker.cs.meta
+    - Assets/Mirror/Runtime/Empty/NetworkSceneChecker.cs
+    - Assets/Mirror/Runtime/Empty/NetworkSceneChecker.cs.meta
+    - Assets/Mirror/Runtime/Empty/NetworkVisibility.cs
+    - Assets/Mirror/Runtime/Empty/NetworkVisibility.cs.meta
+    - Assets/Mirror/Runtime/Empty/StringHash.cs
+    - Assets/Mirror/Runtime/Empty/StringHash.cs.meta
+    - Assets/Mirror/Runtime/ExponentialMovingAverage.cs
+    - Assets/Mirror/Runtime/ExponentialMovingAverage.cs.meta
+    - Assets/Mirror/Runtime/Extensions.cs
+    - Assets/Mirror/Runtime/Extensions.cs.meta
+    - Assets/Mirror/Runtime/InterestManagement.cs
+    - Assets/Mirror/Runtime/InterestManagement.cs.meta
+    - Assets/Mirror/Runtime/LocalConnectionToClient.cs
+    - Assets/Mirror/Runtime/LocalConnectionToClient.cs.meta
+    - Assets/Mirror/Runtime/LocalConnectionToServer.cs
+    - Assets/Mirror/Runtime/LocalConnectionToServer.cs.meta
+    - Assets/Mirror/Runtime/Mathd.cs
+    - Assets/Mirror/Runtime/Mathd.cs.meta
+    - Assets/Mirror/Runtime/MessagePacking.cs
+    - Assets/Mirror/Runtime/MessagePacking.cs.meta
+    - Assets/Mirror/Runtime/Messages.cs
+    - Assets/Mirror/Runtime/Messages.cs.meta
+    - Assets/Mirror/Runtime/Mirror.asmdef
+    - Assets/Mirror/Runtime/Mirror.asmdef.meta
+    - Assets/Mirror/Runtime/NetworkAuthenticator.cs
+    - Assets/Mirror/Runtime/NetworkAuthenticator.cs.meta
+    - Assets/Mirror/Runtime/NetworkBehaviour.cs
+    - Assets/Mirror/Runtime/NetworkBehaviour.cs.meta
+    - Assets/Mirror/Runtime/NetworkClient.cs
+    - Assets/Mirror/Runtime/NetworkClient.cs.meta
+    - Assets/Mirror/Runtime/NetworkConnection.cs
+    - Assets/Mirror/Runtime/NetworkConnection.cs.meta
+    - Assets/Mirror/Runtime/NetworkConnectionToClient.cs
+    - Assets/Mirror/Runtime/NetworkConnectionToClient.cs.meta
+    - Assets/Mirror/Runtime/NetworkConnectionToServer.cs
+    - Assets/Mirror/Runtime/NetworkConnectionToServer.cs.meta
+    - Assets/Mirror/Runtime/NetworkDiagnostics.cs
+    - Assets/Mirror/Runtime/NetworkDiagnostics.cs.meta
+    - Assets/Mirror/Runtime/NetworkIdentity.cs
+    - Assets/Mirror/Runtime/NetworkIdentity.cs.meta
+    - Assets/Mirror/Runtime/NetworkLoop.cs
+    - Assets/Mirror/Runtime/NetworkLoop.cs.meta
+    - Assets/Mirror/Runtime/NetworkManager.cs
+    - Assets/Mirror/Runtime/NetworkManager.cs.meta
+    - Assets/Mirror/Runtime/NetworkManagerHUD.cs
+    - Assets/Mirror/Runtime/NetworkManagerHUD.cs.meta
+    - Assets/Mirror/Runtime/NetworkMessage.cs
+    - Assets/Mirror/Runtime/NetworkMessage.cs.meta
+    - Assets/Mirror/Runtime/NetworkReader.cs
+    - Assets/Mirror/Runtime/NetworkReader.cs.meta
+    - Assets/Mirror/Runtime/NetworkReaderExtensions.cs
+    - Assets/Mirror/Runtime/NetworkReaderExtensions.cs.meta
+    - Assets/Mirror/Runtime/NetworkReaderPool.cs
+    - Assets/Mirror/Runtime/NetworkReaderPool.cs.meta
+    - Assets/Mirror/Runtime/NetworkServer.cs
+    - Assets/Mirror/Runtime/NetworkServer.cs.meta
+    - Assets/Mirror/Runtime/NetworkStartPosition.cs
+    - Assets/Mirror/Runtime/NetworkStartPosition.cs.meta
+    - Assets/Mirror/Runtime/NetworkTime.cs
+    - Assets/Mirror/Runtime/NetworkTime.cs.meta
+    - Assets/Mirror/Runtime/NetworkWriter.cs
+    - Assets/Mirror/Runtime/NetworkWriter.cs.meta
+    - Assets/Mirror/Runtime/NetworkWriterExtensions.cs
+    - Assets/Mirror/Runtime/NetworkWriterExtensions.cs.meta
+    - Assets/Mirror/Runtime/NetworkWriterPool.cs
+    - Assets/Mirror/Runtime/NetworkWriterPool.cs.meta
+    - Assets/Mirror/Runtime/Pool.cs
+    - Assets/Mirror/Runtime/Pool.cs.meta
+    - Assets/Mirror/Runtime/RemoteCalls.cs
+    - Assets/Mirror/Runtime/RemoteCalls.cs.meta
+    - Assets/Mirror/Runtime/SnapshotInterpolation.meta
+    - Assets/Mirror/Runtime/SnapshotInterpolation/Snapshot.cs
+    - Assets/Mirror/Runtime/SnapshotInterpolation/Snapshot.cs.meta
+    - Assets/Mirror/Runtime/SnapshotInterpolation/SnapshotInterpolation.cs
+    - Assets/Mirror/Runtime/SnapshotInterpolation/SnapshotInterpolation.cs.meta
+    - Assets/Mirror/Runtime/SyncDictionary.cs
+    - Assets/Mirror/Runtime/SyncDictionary.cs.meta
+    - Assets/Mirror/Runtime/SyncList.cs
+    - Assets/Mirror/Runtime/SyncList.cs.meta
+    - Assets/Mirror/Runtime/SyncObject.cs
+    - Assets/Mirror/Runtime/SyncObject.cs.meta
+    - Assets/Mirror/Runtime/SyncSet.cs
+    - Assets/Mirror/Runtime/SyncSet.cs.meta
+    - Assets/Mirror/Runtime/SyncVar.cs
+    - Assets/Mirror/Runtime/SyncVar.cs.meta
+    - Assets/Mirror/Runtime/SyncVarGameObject.cs
+    - Assets/Mirror/Runtime/SyncVarGameObject.cs.meta
+    - Assets/Mirror/Runtime/SyncVarNetworkBehaviour.cs
+    - Assets/Mirror/Runtime/SyncVarNetworkBehaviour.cs.meta
+    - Assets/Mirror/Runtime/SyncVarNetworkIdentity.cs
+    - Assets/Mirror/Runtime/SyncVarNetworkIdentity.cs.meta
+    - Assets/Mirror/Runtime/Transport.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/BidirectionalDictionary.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/BidirectionalDictionary.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/LICENSE.md
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/LICENSE.md.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/steam_api.bundle.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/steam_api.bundle/Contents.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/steam_api.bundle/Contents/Info.plist
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/steam_api.bundle/Contents/Info.plist.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/steam_api.bundle/Contents/MacOS.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/steam_api.bundle/Contents/MacOS/libsteam_api.dylib
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/steam_api.bundle/Contents/MacOS/libsteam_api.dylib.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86/libsteam_api.so
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86/libsteam_api.so.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86/steam_api.dll
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86/steam_api.dll.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86_64.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86_64/libsteam_api64.so
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86_64/libsteam_api64.so.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86_64/steam_api64.dll
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Plugins/x86_64/steam_api64.dll.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/README.md
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/README.md.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/CallbackDispatcher.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/CallbackDispatcher.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/CallbackIdentity.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/CallbackIdentity.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/ISteamMatchmakingResponses.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/ISteamMatchmakingResponses.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/InteropHelp.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/InteropHelp.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/Packsize.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/Packsize.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/Steam.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/Steam.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/Version.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/Version.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/NativeMethods.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/NativeMethods.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/SteamCallbacks.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/SteamCallbacks.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/SteamConstants.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/SteamConstants.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/SteamEnums.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/SteamEnums.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/SteamStructs.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/SteamStructs.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamapplist.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamapplist.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamapps.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamapps.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamclient.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamclient.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamfriends.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamfriends.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserver.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserver.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverapps.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverapps.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverclient.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverclient.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverhttp.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverhttp.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverinventory.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverinventory.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameservernetworking.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameservernetworking.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameservernetworkingsockets.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameservernetworkingsockets.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameservernetworkingutils.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameservernetworkingutils.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverstats.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverstats.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverugc.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverugc.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverutils.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamgameserverutils.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamhtmlsurface.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamhtmlsurface.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamhttp.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamhttp.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteaminput.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteaminput.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteaminventory.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteaminventory.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteammatchmaking.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteammatchmaking.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteammusic.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteammusic.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteammusicremote.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteammusicremote.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamnetworking.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamnetworking.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamnetworkingmessages.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamnetworkingmessages.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamnetworkingsockets.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamnetworkingsockets.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamnetworkingutils.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamnetworkingutils.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamparentalsettings.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamparentalsettings.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamremoteplay.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamremoteplay.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamremotestorage.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamremotestorage.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamscreenshots.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamscreenshots.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamugc.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamugc.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamunifiedmessages.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamunifiedmessages.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamuser.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamuser.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamuserstats.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamuserstats.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamutils.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamutils.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamvideo.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/autogen/isteamvideo.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/MatchmakingTypes.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/MatchmakingTypes/gameserveritem_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/MatchmakingTypes/gameserveritem_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/MatchmakingTypes/servernetadr_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/MatchmakingTypes/servernetadr_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClient.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClient/SteamAPIWarningMessageHook_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClient/SteamAPIWarningMessageHook_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClient/SteamAPI_CheckCallbackRegistered_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClient/SteamAPI_CheckCallbackRegistered_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClient/SteamAPI_PostAPIResultInProcess_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClient/SteamAPI_PostAPIResultInProcess_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClientPublic.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClientPublic/CGameID.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClientPublic/CGameID.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClientPublic/CSteamID.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClientPublic/CSteamID.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClientPublic/HAuthTicket.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamClientPublic/HAuthTicket.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamDatagramTickets.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamDatagramTickets/SteamDatagramHostedAddress.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamDatagramTickets/SteamDatagramHostedAddress.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamDatagramTickets/SteamDatagramRelayAuthTicket.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamDatagramTickets/SteamDatagramRelayAuthTicket.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamFriends.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamFriends/FriendsGroupID_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamFriends/FriendsGroupID_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamHTMLSurface.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamHTMLSurface/HHTMLBrowser.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamHTMLSurface/HHTMLBrowser.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamHTTP.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamHTTP/HTTPCookieContainerHandle.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamHTTP/HTTPCookieContainerHandle.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamHTTP/HTTPRequestHandle.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamHTTP/HTTPRequestHandle.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInput.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInput/InputActionSetHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInput/InputActionSetHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInput/InputAnalogActionHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInput/InputAnalogActionHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInput/InputDigitalActionHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInput/InputDigitalActionHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInput/InputHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInput/InputHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInventory.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInventory/SteamInventoryResult_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInventory/SteamInventoryResult_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInventory/SteamInventoryUpdateHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInventory/SteamInventoryUpdateHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInventory/SteamItemDef_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInventory/SteamItemDef_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInventory/SteamItemInstanceID_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamInventory/SteamItemInstanceID_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamMatchmaking.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamMatchmaking/HServerListRequest.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamMatchmaking/HServerListRequest.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamMatchmaking/HServerQuery.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamMatchmaking/HServerQuery.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworking.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworking/SNetListenSocket_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworking/SNetListenSocket_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworking/SNetSocket_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworking/SNetSocket_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingSockets.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingSockets/ISteamNetworkingConnectionSignaling.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingSockets/ISteamNetworkingConnectionSignaling.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingSockets/ISteamNetworkingSignalingRecvContext.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingSockets/ISteamNetworkingSignalingRecvContext.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/FSteamNetworkingSocketsDebugOutput.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/FSteamNetworkingSocketsDebugOutput.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/HSteamListenSocket.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/HSteamListenSocket.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/HSteamNetConnection.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/HSteamNetConnection.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/HSteamNetPollGroup.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/HSteamNetPollGroup.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingConfigValue_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingConfigValue_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingErrMsg.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingErrMsg.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingIPAddr.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingIPAddr.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingIdentity.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingIdentity.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingMessage_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingMessage_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingMicroseconds.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingMicroseconds.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingPOPID.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamNetworkingTypes/SteamNetworkingPOPID.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemotePlay.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemotePlay/RemotePlaySessionID_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemotePlay/RemotePlaySessionID_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemoteStorage.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemoteStorage/PublishedFileId_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemoteStorage/PublishedFileId_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemoteStorage/PublishedFileUpdateHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemoteStorage/PublishedFileUpdateHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemoteStorage/UGCFileWriteStreamHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemoteStorage/UGCFileWriteStreamHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemoteStorage/UGCHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamRemoteStorage/UGCHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamScreenshots.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamScreenshots/ScreenshotHandle.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamScreenshots/ScreenshotHandle.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/AccountID_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/AccountID_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/AppId_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/AppId_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/DepotId_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/DepotId_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/ManifestId_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/ManifestId_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/PartyBeaconID_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/PartyBeaconID_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/RTime32.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/RTime32.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/SiteId_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/SiteId_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/SteamAPICall_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/SteamAPICall_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/SteamIPAddress_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamTypes/SteamIPAddress_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUGC.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUGC/UGCQueryHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUGC/UGCQueryHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUGC/UGCUpdateHandle_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUGC/UGCUpdateHandle_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUnifiedMessages.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUnifiedMessages/ClientUnifiedMessageHandle.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUnifiedMessages/ClientUnifiedMessageHandle.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUserStats.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUserStats/SteamLeaderboardEntries_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUserStats/SteamLeaderboardEntries_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUserStats/SteamLeaderboard_t.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/SteamUserStats/SteamLeaderboard_t.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/Steam_api_common.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/Steam_api_common/HSteamPipe.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/Steam_api_common/HSteamPipe.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/Steam_api_common/HSteamUser.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Dependencies/Runtime/types/Steam_api_common/HSteamUser.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/FizzySteamworks.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/FizzySteamworks.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/IClient.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/IClient.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/IServer.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/IServer.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/LICENSE
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/LICENSE.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/LegacyClient.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/LegacyClient.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/LegacyCommon.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/LegacyCommon.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/LegacyServer.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/LegacyServer.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/NextClient.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/NextClient.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/NextCommon.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/NextCommon.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/NextServer.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/NextServer.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/README.md
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/README.md.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Scripts.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Scripts/Steamworks.NET.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Scripts/Steamworks.NET/SteamManager.cs
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/Scripts/Steamworks.NET/SteamManager.cs.meta
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/version.txt
+    - Assets/Mirror/Runtime/Transport/FizzySteamworks/version.txt.meta
+    - Assets/Mirror/Runtime/Transport/KCP.meta
+    - Assets/Mirror/Runtime/Transport/KCP/MirrorTransport.meta
+    - Assets/Mirror/Runtime/Transport/KCP/MirrorTransport/KcpTransport.cs
+    - Assets/Mirror/Runtime/Transport/KCP/MirrorTransport/KcpTransport.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/LICENSE
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/LICENSE.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/VERSION
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/VERSION.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/Extensions.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/Extensions.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpChannel.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpChannel.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpClient.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpClient.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpClientConnection.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpClientConnection.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpConnection.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpConnection.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpHeader.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpHeader.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpServer.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpServer.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpServerConnection.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/KcpServerConnection.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/Log.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/Log.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/NonAlloc.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/NonAlloc/KcpClientConnectionNonAlloc.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/NonAlloc/KcpClientConnectionNonAlloc.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/NonAlloc/KcpClientNonAlloc.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/NonAlloc/KcpClientNonAlloc.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/NonAlloc/KcpServerConnectionNonAlloc.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/NonAlloc/KcpServerConnectionNonAlloc.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/NonAlloc/KcpServerNonAlloc.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/highlevel/NonAlloc/KcpServerNonAlloc.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/AssemblyInfo.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/AssemblyInfo.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/Kcp.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/Kcp.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/Pool.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/Pool.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/Segment.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/Segment.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/Utils.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp/Utils.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp2k.asmdef
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/kcp2k.asmdef.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/LICENSE
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/LICENSE.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/Scripts.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/Scripts/AssemblyInfo.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/Scripts/AssemblyInfo.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/Scripts/Extensions.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/Scripts/Extensions.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/Scripts/IPEndPointNonAlloc.cs
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/Scripts/IPEndPointNonAlloc.cs.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/Scripts/where-allocations.asmdef
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/Scripts/where-allocations.asmdef.meta
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/VERSION
+    - Assets/Mirror/Runtime/Transport/KCP/kcp2k/where-allocation/VERSION.meta
+    - Assets/Mirror/Runtime/Transport/LatencySimulation.cs
+    - Assets/Mirror/Runtime/Transport/LatencySimulation.cs.meta
+    - Assets/Mirror/Runtime/Transport/MiddlewareTransport.cs
+    - Assets/Mirror/Runtime/Transport/MiddlewareTransport.cs.meta
+    - Assets/Mirror/Runtime/Transport/MultiplexTransport.cs
+    - Assets/Mirror/Runtime/Transport/MultiplexTransport.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/AssemblyInfo.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/AssemblyInfo.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/CHANGELOG.md
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/CHANGELOG.md.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/SimpleWebClient.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/SimpleWebClient.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/StandAlone.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/StandAlone/ClientHandshake.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/StandAlone/ClientHandshake.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/StandAlone/ClientSslHelper.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/StandAlone/ClientSslHelper.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/StandAlone/WebSocketClientStandAlone.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/StandAlone/WebSocketClientStandAlone.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/Webgl.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/Webgl/SimpleWebJSLib.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/Webgl/SimpleWebJSLib.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/Webgl/WebSocketClientWebGl.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/Webgl/WebSocketClientWebGl.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/Webgl/plugin.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/Webgl/plugin/SimpleWeb.jslib
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Client/Webgl/plugin/SimpleWeb.jslib.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/BufferPool.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/BufferPool.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Connection.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Connection.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Constants.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Constants.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/EventType.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/EventType.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Log.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Log.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Message.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Message.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/MessageProcessor.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/MessageProcessor.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/ReadHelper.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/ReadHelper.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/ReceiveLoop.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/ReceiveLoop.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/SendLoop.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/SendLoop.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/TcpConfig.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/TcpConfig.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Utils.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Utils.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/LICENSE
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/LICENSE.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/README.txt
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/README.txt.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Server.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Server/ServerHandshake.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Server/ServerHandshake.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Server/ServerSslHelper.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Server/ServerSslHelper.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Server/SimpleWebServer.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Server/SimpleWebServer.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Server/WebSocketServer.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/Server/WebSocketServer.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.cs.meta
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/SslConfigLoader.cs
+    - Assets/Mirror/Runtime/Transport/SimpleWebTransport/SslConfigLoader.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Client.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Client.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Common.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Common.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/ConnectionState.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/ConnectionState.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Empty.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Empty/Logger.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Empty/Logger.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Empty/Message.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Empty/Message.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Empty/SafeQueue.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Empty/SafeQueue.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Empty/ThreadExtensions.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Empty/ThreadExtensions.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/EventType.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/EventType.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/LICENSE
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/LICENSE.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Log.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Log.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/MagnificentReceivePipe.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/MagnificentReceivePipe.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/MagnificentSendPipe.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/MagnificentSendPipe.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/NetworkStreamExtensions.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/NetworkStreamExtensions.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Pool.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Pool.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Server.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Server.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Telepathy.asmdef
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Telepathy.asmdef.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/ThreadFunctions.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/ThreadFunctions.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Utils.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Utils.cs.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/VERSION
+    - Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/VERSION.meta
+    - Assets/Mirror/Runtime/Transport/Telepathy/TelepathyTransport.cs
+    - Assets/Mirror/Runtime/Transport/Telepathy/TelepathyTransport.cs.meta
+    - Assets/Mirror/Runtime/Transport/Transport.cs
+    - Assets/Mirror/Runtime/Transport/Transport.cs.meta
+    - Assets/Mirror/Runtime/Utils.cs
+    - Assets/Mirror/Runtime/Utils.cs.meta
+    - Assets/Mirror/Tests.meta
+    - Assets/Mirror/Tests/Common.meta
+    - Assets/Mirror/Tests/Common/Castle.Core.dll
+    - Assets/Mirror/Tests/Common/Castle.Core.dll.meta
+    - Assets/Mirror/Tests/Common/ClientSceneTestsBase.cs
+    - Assets/Mirror/Tests/Common/ClientSceneTestsBase.cs.meta
+    - Assets/Mirror/Tests/Common/ClientSceneTests_RegisterPrefabBase.cs
+    - Assets/Mirror/Tests/Common/ClientSceneTests_RegisterPrefabBase.cs.meta
+    - Assets/Mirror/Tests/Common/FakeNetworkConnection.cs
+    - Assets/Mirror/Tests/Common/FakeNetworkConnection.cs.meta
+    - Assets/Mirror/Tests/Common/MemoryTransport.cs
+    - Assets/Mirror/Tests/Common/MemoryTransport.cs.meta
+    - Assets/Mirror/Tests/Common/Mirror.Tests.Common.asmdef
+    - Assets/Mirror/Tests/Common/Mirror.Tests.Common.asmdef.meta
+    - Assets/Mirror/Tests/Common/MirrorEditModeTest.cs
+    - Assets/Mirror/Tests/Common/MirrorEditModeTest.cs.meta
+    - Assets/Mirror/Tests/Common/MirrorPlayModeTest.cs
+    - Assets/Mirror/Tests/Common/MirrorPlayModeTest.cs.meta
+    - Assets/Mirror/Tests/Common/MirrorTest.cs
+    - Assets/Mirror/Tests/Common/MirrorTest.cs.meta
+    - Assets/Mirror/Tests/Common/NSubstitute.dll
+    - Assets/Mirror/Tests/Common/NSubstitute.dll.meta
+    - Assets/Mirror/Tests/Common/System.Threading.Tasks.Extensions.dll
+    - Assets/Mirror/Tests/Common/System.Threading.Tasks.Extensions.dll.meta
+    - Assets/Mirror/Tests/Editor.meta
+    - Assets/Mirror/Tests/Editor/AttributeTests.cs
+    - Assets/Mirror/Tests/Editor/AttributeTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Batching.meta
+    - Assets/Mirror/Tests/Editor/Batching/BatcherTests.cs
+    - Assets/Mirror/Tests/Editor/Batching/BatcherTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Batching/UnbatcherTests.cs
+    - Assets/Mirror/Tests/Editor/Batching/UnbatcherTests.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientRpcOverrideTest.cs
+    - Assets/Mirror/Tests/Editor/ClientRpcOverrideTest.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientRpcTest.cs
+    - Assets/Mirror/Tests/Editor/ClientRpcTest.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_ClearSpawners.cs
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_ClearSpawners.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_GetPrefab.cs
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_GetPrefab.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_OnSpawn.cs
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_OnSpawn.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_PrepareToSpawnSceneObjects.cs
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_PrepareToSpawnSceneObjects.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_RegisterPrefab.cs
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_RegisterPrefab.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_RegisterSpawnHandler.cs
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_RegisterSpawnHandler.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_UnregisterPrefab.cs
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_UnregisterPrefab.cs.meta
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_UnregisterSpawnHandler.cs
+    - Assets/Mirror/Tests/Editor/ClientSceneTests_UnregisterSpawnHandler.cs.meta
+    - Assets/Mirror/Tests/Editor/CommandOverrideTest.cs
+    - Assets/Mirror/Tests/Editor/CommandOverrideTest.cs.meta
+    - Assets/Mirror/Tests/Editor/CommandTest.cs
+    - Assets/Mirror/Tests/Editor/CommandTest.cs.meta
+    - Assets/Mirror/Tests/Editor/CompressionTests.cs
+    - Assets/Mirror/Tests/Editor/CompressionTests.cs.meta
+    - Assets/Mirror/Tests/Editor/CustomRWTest.cs
+    - Assets/Mirror/Tests/Editor/CustomRWTest.cs.meta
+    - Assets/Mirror/Tests/Editor/EnumReadWriteTests.cs
+    - Assets/Mirror/Tests/Editor/EnumReadWriteTests.cs.meta
+    - Assets/Mirror/Tests/Editor/ExponentialMovingAverageTest.cs
+    - Assets/Mirror/Tests/Editor/ExponentialMovingAverageTest.cs.meta
+    - Assets/Mirror/Tests/Editor/ExtensionsTest.cs
+    - Assets/Mirror/Tests/Editor/ExtensionsTest.cs.meta
+    - Assets/Mirror/Tests/Editor/FieldsInBaseClasses.cs
+    - Assets/Mirror/Tests/Editor/FieldsInBaseClasses.cs.meta
+    - Assets/Mirror/Tests/Editor/Generated.meta
+    - Assets/Mirror/Tests/Editor/Generated/CollectionWriterTests.gen.cs
+    - Assets/Mirror/Tests/Editor/Generated/CollectionWriterTests.gen.cs.meta
+    - Assets/Mirror/Tests/Editor/Grid2DTests.cs
+    - Assets/Mirror/Tests/Editor/Grid2DTests.cs.meta
+    - Assets/Mirror/Tests/Editor/InterestManagementTests_Common.cs
+    - Assets/Mirror/Tests/Editor/InterestManagementTests_Common.cs.meta
+    - Assets/Mirror/Tests/Editor/InterestManagementTests_Default.cs
+    - Assets/Mirror/Tests/Editor/InterestManagementTests_Default.cs.meta
+    - Assets/Mirror/Tests/Editor/InterestManagementTests_Distance.cs
+    - Assets/Mirror/Tests/Editor/InterestManagementTests_Distance.cs.meta
+    - Assets/Mirror/Tests/Editor/InterestManagementTests_SpatialHashing.cs
+    - Assets/Mirror/Tests/Editor/InterestManagementTests_SpatialHashing.cs.meta
+    - Assets/Mirror/Tests/Editor/LocalConnectionTest.cs
+    - Assets/Mirror/Tests/Editor/LocalConnectionTest.cs.meta
+    - Assets/Mirror/Tests/Editor/MessageInheritanceTest.cs
+    - Assets/Mirror/Tests/Editor/MessageInheritanceTest.cs.meta
+    - Assets/Mirror/Tests/Editor/MessagePackingTest.cs
+    - Assets/Mirror/Tests/Editor/MessagePackingTest.cs.meta
+    - Assets/Mirror/Tests/Editor/MiddlewareTransportTest.cs
+    - Assets/Mirror/Tests/Editor/MiddlewareTransportTest.cs.meta
+    - Assets/Mirror/Tests/Editor/Mirror.Tests.asmdef
+    - Assets/Mirror/Tests/Editor/Mirror.Tests.asmdef.meta
+    - Assets/Mirror/Tests/Editor/MultiplexTest.cs
+    - Assets/Mirror/Tests/Editor/MultiplexTest.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkBehaviourDirtyBitsTests.cs
+    - Assets/Mirror/Tests/Editor/NetworkBehaviourDirtyBitsTests.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkBehaviourSerializeTest.cs
+    - Assets/Mirror/Tests/Editor/NetworkBehaviourSerializeTest.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkBehaviourTests.cs
+    - Assets/Mirror/Tests/Editor/NetworkBehaviourTests.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkClientTests.cs
+    - Assets/Mirror/Tests/Editor/NetworkClientTests.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkConnectionToClientTests.cs
+    - Assets/Mirror/Tests/Editor/NetworkConnectionToClientTests.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkIdentitySerializationTests.cs
+    - Assets/Mirror/Tests/Editor/NetworkIdentitySerializationTests.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkIdentityTests.cs
+    - Assets/Mirror/Tests/Editor/NetworkIdentityTests.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkLoopTests.cs
+    - Assets/Mirror/Tests/Editor/NetworkLoopTests.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkManagerStopHostOnServerDisconnectTest.cs
+    - Assets/Mirror/Tests/Editor/NetworkManagerStopHostOnServerDisconnectTest.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkManagerTest.cs
+    - Assets/Mirror/Tests/Editor/NetworkManagerTest.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkMessageTests.cs
+    - Assets/Mirror/Tests/Editor/NetworkMessageTests.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkReaderTest.cs
+    - Assets/Mirror/Tests/Editor/NetworkReaderTest.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkReaderWriterTest.cs
+    - Assets/Mirror/Tests/Editor/NetworkReaderWriterTest.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkServerTest.cs
+    - Assets/Mirror/Tests/Editor/NetworkServerTest.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkTransform2kTests.cs
+    - Assets/Mirror/Tests/Editor/NetworkTransform2kTests.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkWriterCollectionTest.cs
+    - Assets/Mirror/Tests/Editor/NetworkWriterCollectionTest.cs.meta
+    - Assets/Mirror/Tests/Editor/NetworkWriterTest.cs
+    - Assets/Mirror/Tests/Editor/NetworkWriterTest.cs.meta
+    - Assets/Mirror/Tests/Editor/OverloadMethodTest.cs
+    - Assets/Mirror/Tests/Editor/OverloadMethodTest.cs.meta
+    - Assets/Mirror/Tests/Editor/PoolTests.cs
+    - Assets/Mirror/Tests/Editor/PoolTests.cs.meta
+    - Assets/Mirror/Tests/Editor/RemoteTestBase.cs
+    - Assets/Mirror/Tests/Editor/RemoteTestBase.cs.meta
+    - Assets/Mirror/Tests/Editor/RpcNetworkIdentityTest.cs
+    - Assets/Mirror/Tests/Editor/RpcNetworkIdentityTest.cs.meta
+    - Assets/Mirror/Tests/Editor/ScriptableObjectWriterTest.cs
+    - Assets/Mirror/Tests/Editor/ScriptableObjectWriterTest.cs.meta
+    - Assets/Mirror/Tests/Editor/SnapshotInterpolationTests.cs
+    - Assets/Mirror/Tests/Editor/SnapshotInterpolationTests.cs.meta
+    - Assets/Mirror/Tests/Editor/StructMessagesTests.cs
+    - Assets/Mirror/Tests/Editor/StructMessagesTests.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncDictionaryTest.cs
+    - Assets/Mirror/Tests/Editor/SyncDictionaryTest.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncListClassTest.cs
+    - Assets/Mirror/Tests/Editor/SyncListClassTest.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncListStructTest.cs
+    - Assets/Mirror/Tests/Editor/SyncListStructTest.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncListTest.cs
+    - Assets/Mirror/Tests/Editor/SyncListTest.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncSetTest.cs
+    - Assets/Mirror/Tests/Editor/SyncSetTest.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncVarAttributeHookTest.cs
+    - Assets/Mirror/Tests/Editor/SyncVarAttributeHookTest.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncVarAttributeHook_HostModeTest.cs
+    - Assets/Mirror/Tests/Editor/SyncVarAttributeHook_HostModeTest.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncVarAttributeTest.cs
+    - Assets/Mirror/Tests/Editor/SyncVarAttributeTest.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncVarGameObjectTests.cs
+    - Assets/Mirror/Tests/Editor/SyncVarGameObjectTests.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncVarNetworkBehaviourAbstractTests.cs
+    - Assets/Mirror/Tests/Editor/SyncVarNetworkBehaviourAbstractTests.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncVarNetworkBehaviourInheritedTests.cs
+    - Assets/Mirror/Tests/Editor/SyncVarNetworkBehaviourInheritedTests.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncVarNetworkIdentityTests.cs
+    - Assets/Mirror/Tests/Editor/SyncVarNetworkIdentityTests.cs.meta
+    - Assets/Mirror/Tests/Editor/SyncVarTests.cs
+    - Assets/Mirror/Tests/Editor/SyncVarTests.cs.meta
+    - Assets/Mirror/Tests/Editor/TargetRpcOverrideTest.cs
+    - Assets/Mirror/Tests/Editor/TargetRpcOverrideTest.cs.meta
+    - Assets/Mirror/Tests/Editor/TargetRpcTest.cs
+    - Assets/Mirror/Tests/Editor/TargetRpcTest.cs.meta
+    - Assets/Mirror/Tests/Editor/TestPrefabs.meta
+    - Assets/Mirror/Tests/Editor/TestPrefabs/PrefabWithChildrenForClientScene.prefab
+    - Assets/Mirror/Tests/Editor/TestPrefabs/PrefabWithChildrenForClientScene.prefab.meta
+    - Assets/Mirror/Tests/Editor/TestPrefabs/ValidPrefabForClientScene.prefab
+    - Assets/Mirror/Tests/Editor/TestPrefabs/ValidPrefabForClientScene.prefab.meta
+    - Assets/Mirror/Tests/Editor/TestPrefabs/invalidPrefabForClientScene.prefab
+    - Assets/Mirror/Tests/Editor/TestPrefabs/invalidPrefabForClientScene.prefab.meta
+    - Assets/Mirror/Tests/Editor/UtilsTests.cs
+    - Assets/Mirror/Tests/Editor/UtilsTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver.meta
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly.meta
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/ComplexClass.cs
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/ComplexClass.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/README.md
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/README.md.meta
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/SomeData.cs
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/SomeData.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/SomeDataClass.cs
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/SomeDataClass.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/SomeDataClassWithConstructor.cs
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/SomeDataClassWithConstructor.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/SomeDataWithWriter.cs
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/SomeDataWithWriter.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/WeaverTestExtraAssembly.asmdef
+    - Assets/Mirror/Tests/Editor/Weaver/ExtraAssembly/WeaverTestExtraAssembly.asmdef.meta
+    - Assets/Mirror/Tests/Editor/Weaver/README.md
+    - Assets/Mirror/Tests/Editor/Weaver/README.md.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverAssembler.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverAssembler.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/BehaviourCanBeSentInRpc.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/BehaviourCanBeSentInRpc.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/ClientRpcThatExcludesOwner.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/ClientRpcThatExcludesOwner.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/ClientRpcValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/ClientRpcValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/OverrideVirtualClientRpc.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/OverrideVirtualClientRpc.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/VirtualClientRpc.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientRpcTests_IsSuccess/VirtualClientRpc.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientServerAttributeTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverClientServerAttributeTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandThatIgnoresAuthority.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandThatIgnoresAuthority.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandThatIgnoresAuthorityWithSenderConnection.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandThatIgnoresAuthorityWithSenderConnection.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandWithArguments.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandWithArguments.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandWithSenderConnectionAndOtherArgs.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/CommandWithSenderConnectionAndOtherArgs.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/OverrideVirtualCallBaseCommand.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/OverrideVirtualCallBaseCommand.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/OverrideVirtualCallsBaseCommandWithMultipleBaseClasses.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/OverrideVirtualCallsBaseCommandWithMultipleBaseClasses.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/OverrideVirtualCallsBaseCommandWithOverride.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/OverrideVirtualCallsBaseCommandWithOverride.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/OverrideVirtualCommand.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/OverrideVirtualCommand.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/VirtualCommand.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverCommandTests_IsSuccess/VirtualCommand.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneralTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneralTests_IsSuccess/RecursionCount.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneralTests_IsSuccess/RecursionCount.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneralTests_IsSuccess/TestingScriptableObjectArraySerialization.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneralTests_IsSuccess/TestingScriptableObjectArraySerialization.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CanUseCustomReadWriteForTypesFromDifferentAssemblies.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CanUseCustomReadWriteForTypesFromDifferentAssemblies.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForClassFromDifferentAssemblies.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForClassFromDifferentAssemblies.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForClassFromDifferentAssembliesWithValidConstructor.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForClassFromDifferentAssembliesWithValidConstructor.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForComplexTypeFromDifferentAssemblies.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForComplexTypeFromDifferentAssemblies.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForStructFromDifferentAssemblies.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForStructFromDifferentAssemblies.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForTypeThatUsesDifferentAssemblies.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterAnotherAssemblyTests_IsSuccess/CreatesForTypeThatUsesDifferentAssemblies.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CanUseCustomReadWriteForAbstractClass.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CanUseCustomReadWriteForAbstractClass.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CanUseCustomReadWriteForInterfaces.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CanUseCustomReadWriteForInterfaces.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForArraySegment.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForArraySegment.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForClass.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForClass.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForClassInherited.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForClassInherited.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForClassWithValidConstructor.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForClassWithValidConstructor.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForEnums.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForEnums.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForInheritedFromScriptableObject.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForInheritedFromScriptableObject.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForList.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForList.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForStructArraySegment.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForStructArraySegment.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForStructList.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForStructList.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForStructs.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/CreatesForStructs.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/ExcludesNonSerializedFields.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/ExcludesNonSerializedFields.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/GivesErrorForJaggedArray.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverGeneratedReaderWriterTests_IsSuccess/GivesErrorForJaggedArray.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/AbstractMessageMethods.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/AbstractMessageMethods.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/MessageNestedInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/MessageNestedInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/MessageSelfReferencing.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/MessageSelfReferencing.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/MessageValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/MessageValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/MessageWithBaseClass.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMessageTests_IsSuccess/MessageWithBaseClass.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourClient.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourClient.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourClientCallback.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourClientCallback.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourServer.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourServer.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourServerCallback.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourServerCallback.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverMonoBehaviourTests_IsSuccess/MonoBehaviourValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourAbstractBaseValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourAbstractBaseValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourClientRpcDuplicateName.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourClientRpcDuplicateName.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourGeneric.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourGeneric.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourTargetRpcDuplicateName.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourTargetRpcDuplicateName.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourTargetRpcParamNetworkConnection.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourTargetRpcParamNetworkConnection.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverNetworkBehaviourTests_IsValid/NetworkBehaviourValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/GenericSyncDictionaryCanBeUsed.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/GenericSyncDictionaryCanBeUsed.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionary.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionary.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryGenericAbstractInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryGenericAbstractInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryGenericInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryGenericInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryGenericStructItemWithCustomMethods.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryGenericStructItemWithCustomMethods.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryGenericStructKeyWithCustomMethods.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryGenericStructKeyWithCustomMethods.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryStructItem.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryStructItem.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryStructKey.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncDictionaryTests_IsSuccess/SyncDictionaryStructKey.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/GenericSyncListCanBeUsed.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/GenericSyncListCanBeUsed.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncList.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncList.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListByteValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListByteValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListGenericAbstractInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListGenericAbstractInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListGenericInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListGenericInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListGenericInheritanceWithMultipleGeneric.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListGenericInheritanceWithMultipleGeneric.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListMissingParamlessCtor.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListMissingParamlessCtor.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListMissingParamlessCtorManuallyInitialized.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListMissingParamlessCtorManuallyInitialized.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListNestedInAbstractClass.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListNestedInAbstractClass.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListNestedInStruct.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListNestedInStruct.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListNestedStruct.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListNestedStruct.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListStruct.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncListTests_IsSuccess/SyncListStruct.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncObjectsTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncObjectsTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncObjectsTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncObjectsTests_IsSuccess/SyncObjectsExactlyMax.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncObjectsTests_IsSuccess/SyncObjectsExactlyMax.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSet.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSet.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetByteValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetByteValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetGenericAbstractInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetGenericAbstractInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetGenericInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetGenericInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetInheritance.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetInheritance.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetStruct.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncSetTests_IsSuccess/SyncSetStruct.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsHookWithGameObjects.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsHookWithGameObjects.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsHookWithNetworkIdentity.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsHookWithNetworkIdentity.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsHookWithOtherOverloadsInOrder.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsHookWithOtherOverloadsInOrder.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsHookWithOtherOverloadsInReverseOrder.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsHookWithOtherOverloadsInReverseOrder.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsPrivateHook.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsPrivateHook.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsPublicHook.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsPublicHook.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsStaticHook.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeHookTests_IsSuccess/FindsStaticHook.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeTests_IsSuccess/SyncVarsDerivedNetworkBehaviour.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeTests_IsSuccess/SyncVarsDerivedNetworkBehaviour.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeTests_IsSuccess/SyncVarsExactlyMax.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeTests_IsSuccess/SyncVarsExactlyMax.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeTests_IsSuccess/SyncVarsValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverSyncVarAttributeTests_IsSuccess/SyncVarsValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/OverrideVirtualTargetRpc.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/OverrideVirtualTargetRpc.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/TargetRpcCanHaveOtherParametersWhileSkipingNetworkConnection.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/TargetRpcCanHaveOtherParametersWhileSkipingNetworkConnection.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/TargetRpcCanSkipNetworkConnection.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/TargetRpcCanSkipNetworkConnection.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/TargetRpcValid.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/TargetRpcValid.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/VirtualTargetRpc.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTargetRpcTests_IsSuccess/VirtualTargetRpc.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTests.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTests.cs.meta
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTestsBuildFromTestName.cs
+    - Assets/Mirror/Tests/Editor/Weaver/WeaverTestsBuildFromTestName.cs.meta
+    - Assets/Mirror/Tests/Runtime.meta
+    - Assets/Mirror/Tests/Runtime/ClientSceneTests_DestroyAllClientObjects.cs
+    - Assets/Mirror/Tests/Runtime/ClientSceneTests_DestroyAllClientObjects.cs.meta
+    - Assets/Mirror/Tests/Runtime/ClientSceneTests_LocalPlayer.cs
+    - Assets/Mirror/Tests/Runtime/ClientSceneTests_LocalPlayer.cs.meta
+    - Assets/Mirror/Tests/Runtime/ClientSceneTests_LocalPlayer_AsHost.cs
+    - Assets/Mirror/Tests/Runtime/ClientSceneTests_LocalPlayer_AsHost.cs.meta
+    - Assets/Mirror/Tests/Runtime/ClientSceneTests_Runtime_RegisterPrefab.cs
+    - Assets/Mirror/Tests/Runtime/ClientSceneTests_Runtime_RegisterPrefab.cs.meta
+    - Assets/Mirror/Tests/Runtime/Mirror.Tests.Runtime.asmdef
+    - Assets/Mirror/Tests/Runtime/Mirror.Tests.Runtime.asmdef.meta
+    - Assets/Mirror/Tests/Runtime/NetworkIdentityTests.cs
+    - Assets/Mirror/Tests/Runtime/NetworkIdentityTests.cs.meta
+    - Assets/Mirror/Tests/Runtime/NetworkManagerTests.cs
+    - Assets/Mirror/Tests/Runtime/NetworkManagerTests.cs.meta
+    - Assets/Mirror/Tests/Runtime/NetworkServerRuntimeTest.cs
+    - Assets/Mirror/Tests/Runtime/NetworkServerRuntimeTest.cs.meta
+    - Assets/Mirror/Tests/Runtime/Scenes.meta
+    - Assets/Mirror/Tests/Runtime/Scenes/SceneObjectSpawningTestsScene.unity
+    - Assets/Mirror/Tests/Runtime/Scenes/SceneObjectSpawningTestsScene.unity.meta
+    - Assets/Mirror/Tests/Runtime/Scenes/TestNetworkManager.prefab
+    - Assets/Mirror/Tests/Runtime/Scenes/TestNetworkManager.prefab.meta
+    - Assets/Mirror/Tests/Runtime/Scenes/TestPlayer.prefab
+    - Assets/Mirror/Tests/Runtime/Scenes/TestPlayer.prefab.meta
+    - Assets/Mirror/Version.txt
+    - Assets/Mirror/Version.txt.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Empty.prefab
+    - Assets/Prefabs/Empty.prefab.meta
+    - Assets/Prefabs/PlayerObject.prefab
+    - Assets/Prefabs/PlayerObject.prefab.meta
+    - Assets/Presets.meta
+    - Assets/Presets/AudioCompressedInMemory.preset
+    - Assets/Presets/AudioCompressedInMemory.preset.meta
+    - Assets/Presets/AudioStreaming.preset
+    - Assets/Presets/AudioStreaming.preset.meta
+    - Assets/Presets/Defaults.meta
+    - Assets/Presets/Defaults/AlbedoTexture_Default.preset
+    - Assets/Presets/Defaults/AlbedoTexture_Default.preset.meta
+    - Assets/Presets/Defaults/AudioDecompressOnLoad.preset
+    - Assets/Presets/Defaults/AudioDecompressOnLoad.preset.meta
+    - Assets/Presets/Defaults/DirectionalLight_Default.preset
+    - Assets/Presets/Defaults/DirectionalLight_Default.preset.meta
+    - Assets/Presets/NormalTexture.preset
+    - Assets/Presets/NormalTexture.preset.meta
+    - Assets/Presets/UtilityTexture.preset
+    - Assets/Presets/UtilityTexture.preset.meta
+    - Assets/Readme.asset
+    - Assets/Readme.asset.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/MainMenu.unity
+    - Assets/Scenes/MainMenu.unity.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scenes/SampleSceneLightingSettings.lighting
+    - Assets/Scenes/SampleSceneLightingSettings.lighting.meta
+    - Assets/ScriptTemplates.meta
+    - Assets/ScriptTemplates/50-Mirror__Network Manager-NewNetworkManager.cs.txt
+    - Assets/ScriptTemplates/50-Mirror__Network Manager-NewNetworkManager.cs.txt.meta
+    - Assets/ScriptTemplates/51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt
+    - Assets/ScriptTemplates/51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt.meta
+    - Assets/ScriptTemplates/52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt
+    - Assets/ScriptTemplates/52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt.meta
+    - Assets/ScriptTemplates/53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt
+    - Assets/ScriptTemplates/53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt.meta
+    - Assets/ScriptTemplates/54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt
+    - Assets/ScriptTemplates/54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt.meta
+    - Assets/ScriptTemplates/55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt
+    - Assets/ScriptTemplates/55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt.meta
+    - Assets/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt
+    - Assets/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt.meta
+    - Assets/ScriptTemplates/57-Mirror__Network Transform-NewNetworkTransform.cs.txt
+    - Assets/ScriptTemplates/57-Mirror__Network Transform-NewNetworkTransform.cs.txt.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/CustomNetworkManager.cs
+    - Assets/Scripts/CustomNetworkManager.cs.meta
+    - Assets/Scripts/LobbyController.cs
+    - Assets/Scripts/LobbyController.cs.meta
+    - Assets/Scripts/PlayerListItem.cs
+    - Assets/Scripts/PlayerListItem.cs.meta
+    - Assets/Scripts/PlayerObjectController.cs
+    - Assets/Scripts/PlayerObjectController.cs.meta
+    - Assets/Scripts/SimpleCameraController.cs
+    - Assets/Scripts/SimpleCameraController.cs.meta
+    - Assets/Scripts/SteamLobby.cs
+    - Assets/Scripts/SteamLobby.cs.meta
+    - Assets/Settings.meta
+    - Assets/Settings/ForwardRenderer.asset
+    - Assets/Settings/ForwardRenderer.asset.meta
+    - Assets/Settings/SampleSceneProfile.asset
+    - Assets/Settings/SampleSceneProfile.asset.meta
+    - Assets/Settings/UniversalRP-HighQuality.asset
+    - Assets/Settings/UniversalRP-HighQuality.asset.meta
+    - Assets/Settings/UniversalRP-LowQuality.asset
+    - Assets/Settings/UniversalRP-LowQuality.asset.meta
+    - Assets/Settings/UniversalRP-MediumQuality.asset
+    - Assets/Settings/UniversalRP-MediumQuality.asset.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Examples & Extras.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode
+      example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode
+      example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/TutorialInfo.meta
+    - Assets/TutorialInfo/Icons.meta
+    - Assets/TutorialInfo/Icons/Help_Icon.png
+    - Assets/TutorialInfo/Icons/Help_Icon.png.meta
+    - Assets/TutorialInfo/Icons/UniversalIcon.png
+    - Assets/TutorialInfo/Icons/UniversalIcon.png.meta
+    - Assets/TutorialInfo/Layout.wlt
+    - Assets/TutorialInfo/Layout.wlt.meta
+    - Assets/TutorialInfo/Scripts.meta
+    - Assets/TutorialInfo/Scripts/Editor.meta
+    - Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+    - Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta
+    - Assets/TutorialInfo/Scripts/Readme.cs
+    - Assets/TutorialInfo/Scripts/Readme.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
