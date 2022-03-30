@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637842127436132081
-    m_Hash: 362307455
+      ticks: 637842452095165220
+    m_Hash: 1124415852
   m_LockFileStatus:
     m_FilePath: C:/Users/willi/SwordGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637842127436192083
-    m_Hash: 1710425876
+      ticks: 637842452095165220
+    m_Hash: 2428216490
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -2886,7 +2886,6 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.4
         - 1.2.5
-        - 1.2.6
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -2904,8 +2903,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.4
         - 1.2.5
-        - 1.2.6
-        verified: 1.2.6
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3362,7 +3360,6 @@ m_PackageAssets:
         - 4.6.0-preview
         - 4.7.0-preview
         - 4.9.1
-        - 4.9.2
         compatible:
         - 4.0.0-preview
         - 4.0.0
@@ -3379,7 +3376,6 @@ m_PackageAssets:
         - 4.6.0-preview
         - 4.7.0-preview
         - 4.9.1
-        - 4.9.2
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
